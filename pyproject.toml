@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rlsandbox"
+version = "0.1.0"
+description = "RLSandbox"
+authors = ["Xiaokai Cui <cxkai2001@outlook.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "rlsandbox", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
